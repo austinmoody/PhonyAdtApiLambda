@@ -1,2 +1,13 @@
 # Project exclude paths
-/vendor/bundle/
+/vendor/bundle
+/vendor/bundle`
+/.bundle
+event.json
+lambda_tester.rb
+/.idea
+/terraform/*.zip
+/terraform/.terraform
+/terraform/.terraform.lock.hcl
+/terraform/terraform.tfstate*
+/lambda_package
+phony_adt_api_lambda.zip
