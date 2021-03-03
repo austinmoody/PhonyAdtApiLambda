@@ -9,6 +9,6 @@ namespace :lambda do
 
   desc 'Create AWS Zip Package'
   task :package do
-    sh %{ zip -r phony_adt_api_lambda.zip authorize.rb jwt_verify.rb lambda_function.rb vendor/* }
+    sh %{ zip -r phony_adt_api_lambda.zip hash.rb authorize.rb jwt_verify.rb lambda_function.rb vendor/* }
   end
 end
